@@ -1,0 +1,52 @@
+nav {
+  background-color: #0A1F44;
+  padding: 5px 0;
+}
+nav a {
+  color: #F8F9FA;
+  font-size: 1.2rem;
+  transition: all 0.4s ease;
+}
+nav h1 {
+  font-family: "Playfair Display", serif;
+  color: #F8F9FA;
+  font-size: 2.5rem;
+  padding: 5px;
+  margin: 10px;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  padding: 0 20px;
+}
+nav li {
+  margin: 0 15px;
+}
+nav ul li:first-child {
+  margin-right: auto;
+}
+nav img {
+  width: 40px;
+  height: 40px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+nav a:hover {
+  color: #C0C0C0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #F8F9FA;
+  color: #0A1F44;
+}
+
+/*# sourceMappingURL=style.css.map */
