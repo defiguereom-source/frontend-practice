@@ -1,12 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from './img/logo.svg';
+import './stylesheets/App.css';
+import Testimonio from './componentes/Testimonio';
+import { testimonios1, testimonios2, testimonios3 }from './js/testimonios';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>Welcome to React</h1>
-      </header>
+      <div className="container-principal">
+        <h1>Estos son nuestros alumnos del curso</h1>
+        
+        <Testimonio {...testimonios1} /> 
+
+        <Testimonio {...testimonios2} />
+
+        <Testimonio {...testimonios3} />
+
+      </div>  
     </div>
   );
 }
