@@ -15,7 +15,11 @@ function App() {
   };
 
   const calcularResultado = () => {
-    setInput(evaluate(input));
+    if(input) {
+      setInput(evaluate(input));
+    }else{
+      alert('Por favor ingrese valores para realizar los cálculos');
+    }
   };
 
   const manejarCambiarSigno = () => {
@@ -58,7 +62,6 @@ function App() {
               </div>
         </div>
     </div>
-
   
   );
 }
