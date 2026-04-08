@@ -1,0 +1,43 @@
+/* ── Botones ── */
+.boton-contenedor {
+    flex: 1;
+    margin: 4px;
+    min-width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2d2d2d;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #f0f0f0;
+    border: none;
+    transition: background-color 0.15s ease, transform 0.1s ease;
+    user-select: none;
+}
+
+.boton-contenedor:hover {
+    background-color: #3a3a3a;
+}
+
+.boton-contenedor:active {
+    background-color: #444;
+    transform: scale(0.96);
+}
+
+/* Botones de operadores */
+.boton-contenedor.operador {
+    background-color: #e07c24;
+    color: #fff;
+}
+
+.boton-contenedor.operador:hover {
+    background-color: #f08d34;
+}
+
+.boton-contenedor.operador:active {
+    background-color: #c96c18;
+    transform: scale(0.96);
+}

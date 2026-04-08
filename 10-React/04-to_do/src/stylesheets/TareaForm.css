@@ -1,0 +1,58 @@
+/* Estilo tarea formulario */
+.tarea-form{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.tarea-input_{
+    width: 350px;
+    font-size: 18px;
+    background-color: white;
+    padding: 14px 32px 14px 16px;
+    border-radius:2px;
+    outline: none;
+}
+
+/* Boton agregar tarea */
+.tarea-boton{
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 18px 32px;
+    margin-left: 10px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.tarea-boton:hover{
+    background-color: #0056b3;
+}
+
+/* Estilo tarea formulario */
+.tarea-input {
+    width: 350px;
+    font-size: 18px;
+    background-color: white;
+    padding: 14px 16px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    outline: none;
+    transition: border 0.2s ease, box-shadow 0.2s ease;
+}
+
+
+.tarea-input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 4px rgba(0, 123, 255, 0.4);
+}
+
+
+.tarea-input::placeholder {
+    color: #999;
+}
+
+.tarea-input:hover {
+    border-color: #888;
+}

@@ -1,0 +1,15 @@
+.input {
+  background-color: #0a0a23;
+  border-radius: 50px;
+  height: 75px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 11px 30px 11px 11px;
+  margin-bottom: 16px;
+  font-family: 'DM Mono', monospace;
+  font-size: 36px;
+  font-weight: 500;
+  color: white;
+  overflow: hidden;
+}

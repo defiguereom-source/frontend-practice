@@ -1,0 +1,38 @@
+/*------------------------------------------
+Navbar
+-------------------------------------------*/
+nav {
+    background-color: #3E4E3C;
+    color: #efe8dc;
+    padding: 20px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li:first-child {
+    margin-right: auto;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+li h1 {
+    margin: 0;
+}
+
+ul li img {
+    width: 30px;
+    cursor: pointer;
+}
+
+/*------------------------------------------
+Banner
+-------------------------------------------*/
+.container-banner img {
+    width: 100%;
+    height: 500px;
+}
