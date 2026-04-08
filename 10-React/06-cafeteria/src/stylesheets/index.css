@@ -1,0 +1,32 @@
+/*------------------------------------------
+Base global
+-------------------------------------------*/
+body {
+    margin: 0;
+    color: #2F2F2F;
+    background-color: #efe8dc;
+    font-family: "Montserrat", sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: "Playfair Display", serif;
+}
+
+a {
+    color: #efe8dc;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+a:hover {
+    color: #aaaaaa;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    list-style: none;
+}
