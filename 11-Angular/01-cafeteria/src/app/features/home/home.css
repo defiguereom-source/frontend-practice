@@ -1,0 +1,104 @@
+/* ===== HERO ===== */
+.hero {
+    width: 100%;
+}
+
+.container-banner {
+    position: relative;
+    width: 100%;
+    height: 350px;
+    overflow: hidden;
+}
+
+.container-banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(60%);
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+        to bottom,
+        rgba(0,0,0,0.2),
+        rgba(0,0,0,0.7)
+    );
+}
+
+.banner-text {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    color: white;
+}
+
+.banner-text h1 {
+    font-size: 2.5rem;
+    margin-bottom: 5px;
+}
+
+.banner-text h2 {
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+/* ===== INFO ===== */
+.container-info {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.container-info a {
+    display: block;
+    color: #5D4037;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.container-info p {
+    margin-top: 5px;
+    color: #333;
+}
+
+/* ===== TEXT ===== */
+.container-text {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+    line-height: 1.7;
+    font-size: 1.1rem;
+    color: #444;
+}
+
+/* ===== CARDS ===== */
+.container-cards {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    width: 250px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+.card h3 {
+    margin-bottom: 10px;
+    color: #5D4037;
+}
