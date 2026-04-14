@@ -7,4 +7,4 @@ import { Footer } from '../../shared/footer/footer';
   templateUrl: './home.html',
   styleUrl: './home.css',
 })
-export class Home {}
+export class HomeComponent {}
